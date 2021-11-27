@@ -1,0 +1,644 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.clear
+{
+    clear: both;
+}
+/*header------------------------------------------------*/
+
+#header
+{
+    margin: auto;
+    width: 99%;
+    height: 63px;
+    
+}
+#header .sigin
+{
+    float: right;
+    line-height: 63px;
+    padding: 0px 8px 0px 0px;
+    
+}
+#header .sigin a
+{
+    text-decoration: none;
+    color: #000;
+    font-weight: 400px;
+    
+
+}
+#header .logo
+{
+    width: 120px;
+    height: 63px;
+    float: left;
+    margin-right: 10px;
+}
+#header .logo img
+{
+    width: 100%;
+    height: 100%;
+}
+
+
+.nav 
+{
+    display: inline-block;
+    height: 63px;
+}
+
+
+.nav  > li
+{
+    line-height: 63px;
+    padding: 0px 20px;
+    display: inline-block;
+}
+
+
+
+
+.nav >li> a
+{
+    line-height: 63px;
+    text-decoration: none;
+    color: #000;
+    
+}
+.nav li a
+{
+    font-weight: 550;
+}
+
+
+
+
+
+
+/*end header------------------------------------------------*/
+
+/*container------------------------------------------------*/
+
+#container
+{
+
+}
+   
+
+#content
+{
+
+}
+.intoduction 
+{
+    background-color: #000;
+    height: 70px;
+}
+.intoduction .text-about
+{
+        font-size: 14px;
+        color: #fff;
+        line-height: 70px;
+        text-align: center;
+        letter-spacing: 0.8px;
+}
+.banner
+{
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    padding: 20%;
+    background: url('https://lumiere-a.akamaihd.net/v1/images/homepage-hero-encanto_2031fa8b.jpeg?region=0,0,1600,640') top center / cover no-repeat;
+    
+}
+.banner .wrap-text
+{
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    text-align: center; 
+    font-size: 16px;
+ 
+   
+    
+}
+.banner .text
+{
+    margin-bottom: 15px;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+}
+.banner .btn-banner
+{
+    border: none;
+    padding: 16px 32px;
+    background-color: #01a0ad;
+    border-color: #01a0ad;
+    width: 300px;
+    border-radius: 26px;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.8px;
+}
+
+
+
+.banner:hover
+{
+    transform: scale(1.03);
+    
+}
+.aspect img
+{
+    width:100% ;
+    padding-bottom: 20px;
+}
+.list-movie 
+{
+   
+}
+.list-movie .movie img
+{
+    
+    width: 100%;
+    padding: 0px 8px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px;
+
+   
+}
+.list-movie .movie img:hover
+{
+   transform: scale(1.03);
+
+}
+.list-movie .movie
+{
+    width: calc(100%/4);
+    float: left;
+    position: relative;
+}
+.list-movie .movie .about-movie
+{
+    font-size: 16px;
+    position: absolute;
+    bottom: 40px;
+    color: #fff;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.movie .about-movie .text
+{
+    margin-bottom: 20px;
+}
+.trailer 
+{
+    padding: 40px 80px;
+    background-color: #ddd;
+    margin-top: 20px;
+}
+
+.trailer .text-trailer-movie
+{
+    text-align: center;
+    
+
+    
+}
+.trailer .text-heading-trailer
+{
+    font-size: 30px;
+    color:rgba(0,0,0,0.9);
+    padding-bottom: 18px;
+    
+    
+}
+.trailer .text-trailer
+{
+    font-size: 19.5px;
+    color: rgba(0,0,0,0.7)
+}
+.trailer .wrap-box-trailer
+{
+    
+    padding: 20px 0px;
+    
+}
+.trailer .wrap-box-trailer .box-trailer
+{
+    float: left;
+    width: 50%;
+    padding: 0px 16px;
+
+}
+
+
+.trailer .wrap-box-trailer img
+{
+    width: 100%;
+    display: block;
+    transition: all 0.3s ease-in-out;
+   
+    
+    
+}
+.trailer .wrap-box-trailer img:hover
+{
+    transform: scale(1.01,1.01);
+}
+.box-text 
+{
+    background-color: #fff;
+    padding: 30px;
+}
+.box-text .box-heading
+{
+    font-size: 20px;
+}
+.box-text .text-box
+{
+    font-size: 14px;
+    margin-top: 15px;
+    line-height: 1.6;
+}
+.box-text .text-sub-box
+{
+    text-transform: uppercase; 
+    font-size: 12px;  
+    margin-top: 20px;
+    
+}
+.list-tv
+{
+    width: 99%;
+    height: 296px;
+    margin: auto;
+}
+.list-tv img
+{
+    transition: all 0.3s ease-in-out;
+    
+    width: 100%;
+    height: 100%;
+}
+.list-tv img:hover
+{
+    transform: scale(1.01,1.01);
+
+}
+.about-movie-comming
+{
+    text-align: center;
+}
+.about-movie-comming .about-heading
+{
+    font-size: 30px;
+    color:rgba(0,0,0,0.9);
+}
+.about-movie-comming .text-about
+{
+    font-size: 19.5px;
+    color:rgba(0,0,0,0.7);
+    padding-top:10px;
+
+}
+.list-movie-comming
+{
+    padding: 40px 45px 48px;
+    background-color: #ddd;
+}
+.wrap-movie-comming
+{
+    
+}
+.wrap-movie-comming .movie-comming
+{
+    width: calc(100%/4);
+    float: left;
+    padding: 20px 16px 0px 16px ;
+    
+}
+.wrap-movie-comming .movie-comming img
+{
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+    border-radius:  18px;
+}
+.wrap-movie-comming .movie-comming img:hover
+{
+    transform: scale(1.08);
+}
+.Read-Our-Articles
+{
+    padding: 40px 96px;
+    background-color: #ddd;
+}
+.Read-Our-Articles .heading-text
+{
+    text-align: center;
+    font-size: 30px;
+    color: rgba(0,0,0,0.9);
+}
+.box-Read-Our-Articles
+{
+    width: calc(100%/2);
+    float: left;
+    padding: 0px 5px;
+}
+.box-Read-Our-Articles .box-Read-Our-Articles-small
+{
+    width: calc(100%/2);
+    float: left;
+    padding: 0px 5px;
+    
+} 
+.box-Read-Our-Articles .box-Read-Our-Articles-small img
+{
+    height: 365.15px;
+}
+.box-Read-Our-Articles img
+{
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+    display: block;
+    
+}
+.box-Read-Our-Articles img:hover
+{
+    transform: scale(1.01,1.01);
+}
+.wrap-Read-Our-Articles
+{
+   padding-top: 20px;
+}
+.box-text-Read-Our-Articles
+{
+    padding: 30px;
+    background-color: #fff;
+    min-height: 230px;
+    position: relative;
+}
+.box-text-Read-Our-Articles .text-heading
+{
+    font-size: 20px;
+}
+.box-text-Read-Our-Articles .text-body
+{
+    font-size: 14px;
+    margin:10px 0px;
+   
+}
+.box-text-Read-Our-Articles .text-last
+{
+    font-size: 12px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 30px;
+    text-transform: uppercase;
+    font-weight: 750;
+}
+.oh-my-disney 
+{
+    padding: 40px 96px 48px ;
+}
+.oh-my-disney .title-oh-my
+{
+    text-align: center;
+    padding: 30px 0px 0px;
+    margin-bottom: 6px;
+
+}
+.oh-my-disney .title-oh-my .text-oh-my
+{
+    font-size: 19.5px;
+    color: rgba(0,0,0,0.7);;
+}
+.wrap-oh-my 
+{
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.wrap-oh-my .product
+{
+    width: calc(100%/4);
+    float: left;
+    padding: 0px 10px;
+}
+.wrap-oh-my .product img
+{
+    width: 100%;
+}
+.box-oh-my .buy-now-oh-my
+{
+    font-size: 16px;
+    border-radius: 25px ;
+   border:1px solid #000;
+    color: rgba(0,0,0,0.7);
+    background-color: #fff;
+    display: block;
+    width: 100%;
+    padding: 20px 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.box-oh-my .buy-now-oh-my:hover
+{
+    border-color: #0070cc;
+    background-color: #0070cc;
+    color: #fff;
+}
+
+
+
+.box-oh-my 
+{
+  padding: 15px 15px;
+}
+.box-oh-my .text-box
+{
+    margin: 15px 0px;
+    font-size: 14px;
+    text-align: center;
+}
+.tex-last-oh-my {
+    text-align: center;
+}
+.disney-insider
+{
+    padding: 40px 96px;
+    background-color: #ddd;
+}
+.disney-insider .title-disney-insider
+{
+    text-align: center;
+}
+.disney-insider .text-title
+{
+    font-size: 19px;
+    color: rgba(0,0,0,0.7);
+
+}
+.wrap-box-disney-insider
+{
+
+}
+.box-insider 
+{
+    width: calc(100%/2);
+    float: left;
+    padding: 0px 8px; 
+}
+.box-insider img
+{
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+    display: block;
+}
+.box-insider img:hover
+{
+    transform: scale(1.01,1.01);
+}
+.box-text-insider
+{
+    padding: 30px;
+    background-color: #fff;
+}
+.box-text-insider .heading-insider
+{
+    font-size: 20px;
+    font-weight: 700;
+}
+.box-text-insider .body-text
+{
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 1.6;
+}
+.box-text-insider .btn-insider
+{
+    margin-top:12px ;
+
+}
+.box-text-insider .btn-insider button
+{
+    padding: 16px 32px;
+    font-size: 16px;
+    margin: 10px 10px 10px;
+    border-radius: 25px;
+    font-weight: 800;
+    color: #fff;
+    border:1px solid #0070cc;
+    background-color: #0070cc;
+}
+.text-last-insider
+{
+    font-size: 16px;
+    margin-top: 15px;
+}
+.news-tremding-video
+{
+    padding: 40px 96px;
+}
+.news-tremding-video .text-heading-news
+{
+    text-align: center;
+    font-size: 30px;
+    color: rgba(0,0,0,0.9);
+    margin-bottom: 10px;
+}
+.wrap-news-trending-video
+{
+
+}
+.box-news-trending-video
+{
+    width: calc(100%/3);
+    float: left;
+    padding: 0px 12px;
+}
+.box-news-trending-video img
+{
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+.box-news-trending-video img:hover
+{
+    transform: scale(1.03);
+}
+
+
+
+
+/* end container------------------------------------------------*/
+
+/*footer------------------------------------------------*/
+
+#footer
+{
+    padding :32px 0px;
+}
+.logo-footer
+{
+    width: 84px;
+    height: 36px;
+    margin: auto;
+}
+.logo-footer img
+{
+    width: 100%;
+    height: 100%;
+}
+.link-topic .link 
+{
+    text-align: center;
+    padding: 16px 0px 6px;
+}
+.link-topic .link li
+{
+    display: inline;
+    padding: 0px 12px 4px 8px ;
+    
+}
+.link-topic .link li a
+{
+    text-decoration: none;
+    font-size: 12px;
+    color: #333333
+}
+.policy-information
+{
+    padding-bottom: 20px;
+}
+.policy-information .link-policy-information
+{
+    text-align: center;
+}
+.policy-information .link-policy-information li
+{
+    display: inline;
+    padding: 4px 20px 0px 0px;
+}
+.policy-information .link-policy-information a
+{
+    font-size: 12px;
+    text-decoration: none;
+    color: #333333
+
+}
+.text-license
+{
+    text-align: center;
+    font-size: 12px;
+}
+/*end footer------------------------------------------------*/
